@@ -25,6 +25,19 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 30
   },
+  emoticon: {
+    fontSize: 36
+  },
+  hidden: {
+    backgroundColor: '#c00',
+    width: '100%',
+    padding: 16,
+  },
+  show: {
+    backgroundColor: 'transparent',
+    width: '100%',
+    padding: 16,
+  }
 })
 
 export default styles;

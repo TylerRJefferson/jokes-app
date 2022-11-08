@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
 import styles from './styles';
 
 // import Joke, Punchline, and Another components
@@ -31,6 +31,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.emoticon}>🤡🤣🤡🤣🤡🤣🤡</Text>
       {jokeList
         ? <>
           <Joke joke={jokeList[currentJokeIndex].setup}/>
